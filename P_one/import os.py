@@ -34,7 +34,7 @@ def download_and_upload(update: Update, context: CallbackContext):
         context.bot.send_message(chat_id=chat_id, text="Please provide a valid download link.")
 
 # Create an Updater and pass in your bot's API token
-updater = Updater(token='6343726414:AAEjmU4hFvwa0BMo5fdEw0mNNf4XENRztcs', use_context=True)
+updater = Updater(token='xxxx', use_context=True)
 
 # Get the dispatcher to register handlers
 dp = updater.dispatcher
