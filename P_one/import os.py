@@ -1,6 +1,6 @@
 import os
 import requests
-
+# this code is written by Noraldim
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 
